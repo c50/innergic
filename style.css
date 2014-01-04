@@ -14,17 +14,7 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
-.site-title {display:block; float: left;}
-
-
-a.site-title {
-	background-image: url(images/innergic.png);
-	background-size: 300px auto;
-	background-repeat: no-repeat;
-	text-indent: -999999px;
-	padding-right: 0px;
-	margin-right: 0px;
-	width: 357px;
-	padding-top: 0px;
-	margin-top: -1px;
+div.site-logo a img {
+	max-width: 2em;
+	padding-top: 1em;
 	}
