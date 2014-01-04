@@ -18,3 +18,9 @@ div.site-logo a img {
 	max-width: 19em;
 	padding-top: 1em;
 	}
+
+.site-header {background-color: rgb(255, 144, 39);}
+.site-logo {background-color: #ffffff; margin-left: -2em;}
+.site {background-color: rgb(238, 239, 175);}
+.site:before {background-color: rgb(212, 215, 11);}
+#secondary {background-color: rgb(212, 215, 11);}
