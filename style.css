@@ -1,6 +1,6 @@
 /*
  Theme Name:   Innergic
- Theme URI:    http://example.com/twenty-fourteen-child/
+ Theme URI:    http://github.com/c50/innergic
  Description:  Twenty Fourteen Child Theme
  Author:       Eric Lemonne
  Author URI:   http://www.c50.be
@@ -14,3 +14,17 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+.site-title {display:block; float: left;}
+
+
+a.site-title {
+	background-image: url(images/innergic.png);
+	background-size: 300px auto;
+	background-repeat: no-repeat;
+	text-indent: -999999px;
+	padding-right: 0px;
+	margin-right: 0px;
+	width: 357px;
+	padding-top: 0px;
+	margin-top: -1px;
+	}
