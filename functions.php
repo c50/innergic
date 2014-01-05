@@ -3,8 +3,8 @@
  * Innergic functions and definitions
  *
  * @package WordPress
- * @subpackage innergic
- * @since innergic 1.0
+ * @subpackage Innergic
+ * @since Innergic 1.0
  */
 
 
