@@ -20,7 +20,8 @@ div.site-logo a img {
 	}
 
 .site-header {background-color: rgb(255, 144, 39);}
-.site-logo {background-color: #ffffff; margin-left: -2em;}
+/*.site-logo {background-color: #ffffff; margin-left: -2em;}*/
 .site {background-color: rgb(238, 239, 175);}
-.site:before {background-color: rgb(212, 215, 11);}
+.site:before {background-color: rgb(0, 158, 158);}
 #secondary {background-color: rgb(212, 215, 11);}
+::selection {background-color: rgb(0, 158, 158);}
