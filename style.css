@@ -22,13 +22,17 @@ div.site-logo a img {
     z-index: 100;
 	}
 
-/*.site-header {height: 2em;}*/
-/*.site-description {padding-top: 1em;}	*/
+.site-header {background-color: rgb(212, 215, 11);} /* apple green */
+.site {background-color: rgb(238, 239, 175);} /* pale green */
+.site:before {background-color: rgb(0, 158, 158);} /* blue-green */
+#secondary {background-color: rgb(255, 144, 39);} /* orange */
+::selection {background-color: rgb(0, 158, 158);} /* blue-green */
 
-.site-header {background-color: rgb(212, 215, 11);}
-/*.site-logo {background-color: #ffffff; margin-left: -2em;}*/
-.site {background-color: rgb(238, 239, 175);}
-.site:before {background-color: rgb(0, 158, 158);}
-#secondary {background-color: rgb(255, 144, 39);}
-::selection {background-color: rgb(0, 158, 158);}
+.site-navigation .current_page_item > a,
+.site-navigation .current_page_ancestor > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a {
+	color: #ffffff;
+	font-weight: 900;
+}
 /*div.search-box {background: none; }*/
