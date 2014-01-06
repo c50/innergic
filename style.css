@@ -27,12 +27,13 @@ div.site-logo a img {
 .site:before {background-color: rgb(0, 158, 158);} /* blue-green */
 #secondary {background-color: rgb(255, 144, 39);} /* orange */
 ::selection {background-color: rgb(0, 158, 158);} /* blue-green */
+.site-description {padding-top: 1em;}
 
 .site-navigation .current_page_item > a,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
 .site-navigation .current-menu-ancestor > a {
-	color: #ffffff;
+	color: #6FAEA5;
 	font-weight: 900;
 }
 /*div.search-box {background: none; }*/
