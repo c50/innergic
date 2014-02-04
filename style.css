@@ -26,7 +26,8 @@ div.site-logo a img {
 .site {background-color: rgb(238, 239, 175);} /* pale green */
 .site:before {background-color: rgb(0, 158, 158);} /* blue-green */
 #secondary {background-color: rgb(255, 144, 39);} /* orange */
-::selection {background-color: rgb(0, 158, 158);} /* blue-green */
+
+::selection, .search-toggle {background-color:#6FAEA5 !important;} /* blue-green */
 .site-description {padding-top: 1em;}
 
 .site-navigation .current_page_item > a,
@@ -37,3 +38,13 @@ div.site-logo a img {
 	font-weight: 900;
 }
 /*div.search-box {background: none; }*/
+
+/* media Queries */
+
+@media screen and (max-width: 400px) {
+div.site-logo a img {max-width: 12em; margin-top: -.75em; margin-left:0em;}
+}
+
+@media screen and (max-width: 846px) { {
+div.site-logo a img {max-width: 15em;}
+}
