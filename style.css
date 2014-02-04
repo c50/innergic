@@ -37,7 +37,8 @@ div.site-logo a img {
 	color: #6FAEA5;
 	font-weight: 900;
 }
-/*div.search-box {background: none; }*/
+/* search-box */
+.search-box {background-color: #6FAEA5;}
 
 /* media Queries */
 
