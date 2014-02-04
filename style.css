@@ -38,7 +38,7 @@ div.site-logo a img {
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
 .site-navigation .current-menu-ancestor > a {
-	color: #6FAEA5;
+	color: #4B9187 !important;
 	font-weight: 900;
 }
 
