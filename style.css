@@ -41,10 +41,14 @@ div.site-logo a img {
 
 /* media Queries */
 
-@media screen and (max-width: 400px) {
-div.site-logo a img {max-width: 12em; margin-top: -.75em; margin-left:0em;}
+@media screen and (max-width: 846px) {
+div.site-logo a img {max-width: 15em;}
 }
 
-@media screen and (max-width: 846px) { {
-div.site-logo a img {max-width: 15em;}
+@media screen and (max-width: 640px) {
+div.site-logo a img {max-width: 14em;}
+}
+
+@media screen and (max-width: 450px) {
+div.site-logo a img {max-width: 12em; margin-top: -.75em; margin-left:0em;}
 }
