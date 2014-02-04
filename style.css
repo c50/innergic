@@ -27,7 +27,11 @@ div.site-logo a img {
 .site:before {background-color: rgb(0, 158, 158);} /* blue-green */
 #secondary {background-color: rgb(255, 144, 39);} /* orange */
 
-::selection, .search-toggle {background-color:#6FAEA5 !important;} /* blue-green */
+/* Support a widely-adopted but non-standard selector for text selection styles
+ * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898.
+ */
+::selection {background-color:#6FAEA5 !important;} /* blue-green */
+.search-toggle {background-color:#6FAEA5 !important;} /* blue-green */
 .site-description {padding-top: 1em;}
 
 .site-navigation .current_page_item > a,
@@ -37,8 +41,10 @@ div.site-logo a img {
 	color: #6FAEA5;
 	font-weight: 900;
 }
+
+.primary-navigation li:hover > a, .primary-navigation li.focus > a {background-color:rgb(255, 144, 39);}
 /* search-box */
-.search-box {background-color: #6FAEA5;}
+.search-box, .search-toggle.active {background-color: #6FAEA5;}
 
 /* media Queries */
 
