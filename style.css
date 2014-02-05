@@ -8,19 +8,16 @@
  Version:      1.0.0
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fourteen-child
+
+ referring to parent theme 
+ * 9.0 - Featured Content
+
 */
 
 @import url("../twentyfourteen/style.css");
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
-div.site-logo a img {
-	margin-left: 3em;
-    max-width: 20em;
-    position: absolute;
-    top: 1em;
-    z-index: 100;
-	}
 
 .site-header {background-color: rgb(212, 215, 11);} /* apple green */
 .site {background-color: rgb(238, 239, 175);} /* pale green */
@@ -31,14 +28,16 @@ div.site-logo a img {
  * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898.
  */
 ::selection {background-color:#6FAEA5 !important;} /* blue-green */
+
 .search-toggle {background-color:#6FAEA5 !important;} /* blue-green */
 .site-description {padding-top: 1em;}
 
+.site-navigation a,
 .site-navigation .current_page_item > a,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
 .site-navigation .current-menu-ancestor > a {
-	color: #4B9187 !important;
+	color: #4B9187;
 	font-weight: 900;
 }
 
@@ -46,16 +45,14 @@ div.site-logo a img {
 /* search-box */
 .search-box, .search-toggle.active {background-color: #6FAEA5;}
 
-/* media Queries */
+/**
+ * 9.0 Featured Content
+ * -----------------------------------------------------------------------------
+ */
 
-@media screen and (max-width: 846px) {
-div.site-logo a img {max-width: 15em;}
-}
+.featured-content {background-color: #D73434;}
 
-@media screen and (max-width: 640px) {
-div.site-logo a img {max-width: 14em;}
-}
+.slider-control-paging a:before {background-color: rgb(255, 144, 39);}
 
-@media screen and (max-width: 450px) {
-div.site-logo a img {max-width: 12em; margin-top: -.75em; margin-left:0em;}
-}
+.slider-control-paging .slider-active:before,
+.slider-control-paging .slider-active:hover:before {background-color:#6FAEA5;}
