@@ -19,10 +19,16 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
-.site-header {background-color: rgb(212, 215, 11);} /* apple green */
+/**
+ * 3.0 Basic Structure
+ * -----------------------------------------------------------------------------
+ */
+
+
+.site-header {background-color:#d3d600;} /* apple green */
 .site {background-color: rgb(238, 239, 175);} /* pale green */
-.site:before {background-color: rgb(0, 158, 158);} /* blue-green */
-#secondary {background-color: rgb(255, 144, 39);} /* orange */
+.site:before {background-color:#009799;} /* blue-green */
+#secondary {background-color:#ee7f00;} /* orange */
 
 /* Support a widely-adopted but non-standard selector for text selection styles
  * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898.
@@ -41,7 +47,7 @@
 	font-weight: 900;
 }
 
-.primary-navigation li:hover > a, .primary-navigation li.focus > a {background-color:rgb(255, 144, 39);}
+.primary-navigation li:hover > a, .primary-navigation li.focus > a {background-color:#ee7f00;}
 /* search-box */
 .search-box, .search-toggle.active {background-color: #6FAEA5;}
 
@@ -52,7 +58,7 @@
 
 .featured-content {background-color: #D73434;}
 
-.slider-control-paging a:before {background-color: rgb(255, 144, 39);}
+.slider-control-paging a:before {background-color:#ee7f00;}
 
 .slider-control-paging .slider-active:before,
 .slider-control-paging .slider-active:hover:before {background-color:#6FAEA5;}
