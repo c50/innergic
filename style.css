@@ -36,7 +36,7 @@
 ::selection {background-color:#6FAEA5 !important;} /* blue-green */
 
 .search-toggle {background-color:#6FAEA5 !important;} /* blue-green */
-.site-description {padding-top: 1em;}
+.site-description {padding-top: 1em;font-size:1em;}
 
 .site-navigation a,
 .site-navigation .current_page_item > a,
