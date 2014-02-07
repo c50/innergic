@@ -150,14 +150,14 @@ input[type="submit"] {background-color: #6FAEA5;}
  
 
 
-@media screen and (max-width: 846px) {
+@media screen and (max-width: 782px) {
 
 .site-navigation a,
 .site-navigation .current_page_item > a,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
 .site-navigation .current-menu-ancestor > a {
-	margin: -.2em -3em 1em -4em;
+	margin: -.2em -2em 1em -4em;
     padding-left: 4em;
 	}
 }
