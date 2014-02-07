@@ -33,7 +33,7 @@
 /* Support a widely-adopted but non-standard selector for text selection styles
  * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898.
  */
-::selection {background-color:#6FAEA5 !important;} /* blue-green */
+::selection {background:#6FAEA5 !important;} /* blue-green */
 
 .search-toggle {background-color:#6FAEA5 !important;} /* blue-green */
 .site-description {padding-top: 1em;font-size:.8em;}
@@ -43,10 +43,12 @@
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
 .site-navigation .current-menu-ancestor > a {
-	color: #4B9187;
+	color: #009799;
 	font-weight: 900;
 }
 
+.primary-navigation ul ul a, .primary-navigation ul ul li > a {background:#6FAEA5;}
+.primary-navigation ul ul a:hover, .primary-navigation ul ul li.focus > a {background:#ee7f00;}
 .primary-navigation li:hover > a, .primary-navigation li.focus > a {background-color:#ee7f00;}
 /* search-box */
 .search-box, .search-toggle.active {background-color: #6FAEA5;}
