@@ -19,6 +19,11 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
+
+/** 1.0 Reste **/
+
+a {color: #009799;}
+
 /**
  * 3.0 Basic Structure
  * -----------------------------------------------------------------------------
@@ -33,7 +38,22 @@
 /* Support a widely-adopted but non-standard selector for text selection styles
  * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898.
  */
-::selection {background:#6FAEA5 !important;} /* blue-green */
+::selection {background-color:#6FAEA5 !important;} /* blue-green */
+::-moz-selection {
+    background: none repeat scroll 0 0 #6FAEA5 !important;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+/* Buttons */
+
+button,
+.contributor-posts-link,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {background-color: #6FAEA5;}
+
+/* search toggle */
 
 .search-toggle {background-color:#6FAEA5 !important;} /* blue-green */
 .site-description {padding-top: 1em;font-size:.8em;}
@@ -47,11 +67,71 @@
 	font-weight: 900;
 }
 
-.primary-navigation ul ul a, .primary-navigation ul ul li > a {background:#6FAEA5;}
-.primary-navigation ul ul a:hover, .primary-navigation ul ul li.focus > a {background:#ee7f00;}
-.primary-navigation li:hover > a, .primary-navigation li.focus > a {background-color:#ee7f00;}
 /* search-box */
 .search-box, .search-toggle.active {background-color: #6FAEA5;}
+
+/* media elements */
+
+.hentry .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: #6FAEA5;
+}
+
+.widget_calendar tbody a {
+	background-color: #6FAEA5;
+	color: #fff;
+	display: block;
+}
+
+/**
+ * 7.2 Content Sidebar Widgets
+ * -----------------------------------------------------------------------------
+ */
+
+.content-sidebar .widget a {
+	color: #6FAEA5;
+}
+
+.content-sidebar .widget input[type="button"],
+.content-sidebar .widget input[type="reset"],
+.content-sidebar .widget input[type="submit"] {
+	background-color: #6FAEA5;
+	border: 0;
+	color: #fff;
+}
+
+/* slider */
+.slider-control-paging .slider-active:before,
+.slider-control-paging .slider-active:hover:before {
+	background-color: #6FAEA5;
+}
+
+.slider-direction-nav a:hover {
+	background-color: #6FAEA5;
+}
+
+/* Primary navigation */ 
+.primary-navigation ul ul {background-color: #6FAEA5;}
+	.primary-navigation li:hover > a,
+	.primary-navigation li.focus > a {
+		background-color: #6FAEA5;
+		color: #fff;
+	}
+.secondary-navigation ul ul {
+		background-color: #6FAEA5;
+	}
+
+	.secondary-navigation li:hover > a,
+	.secondary-navigation li.focus > a {
+		background-color: #6FAEA5;
+		color: #fff;
+	}
+.primary-navigation ul ul a, .primary-navigation ul ul li > a {background-color:#6FAEA5;color:#ffffff;}
+.primary-navigation ul ul a:hover, .primary-navigation ul ul li.focus > a {background-color:#ee7f00;}
+.primary-navigation li:hover > a, .primary-navigation li.focus > a {background-color:#ee7f00;}
+
+.paging-navigation .page-numbers.current {
+	border-top: 5px solid #6FAEA5;
+}
 
 /**
  * 9.0 Featured Content
@@ -64,3 +144,21 @@
 
 .slider-control-paging .slider-active:before,
 .slider-control-paging .slider-active:hover:before {background-color:#6FAEA5;}
+
+
+/* media Queries */
+ 
+
+
+@media screen and (max-width: 846px) {
+
+.site-navigation a,
+.site-navigation .current_page_item > a,
+.site-navigation .current_page_ancestor > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a {
+	margin: -.2em -3em 1em -4em;
+    padding-left: 4em;
+	}
+}
+	
