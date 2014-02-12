@@ -45,6 +45,8 @@ a {color: #009799;}
     text-shadow: none;
 }
 
+h1.entry-title {display: none;}
+
 /* Buttons */
 
 button,
