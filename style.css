@@ -76,6 +76,9 @@ input[type="submit"] {background-color: #6FAEA5;}
 /* search results */
 form.search-form {padding-bottom: 2em;}
 
+/* widget search box */
+input.search-filed {color: #fff !important;}
+
 /* media elements */
 
 .hentry .mejs-controls .mejs-time-rail .mejs-time-current {
