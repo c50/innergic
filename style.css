@@ -23,6 +23,7 @@
 /** 1.0 Reste **/
 
 a {color: #009799;}
+body, button, input, select, textarea {color: #009799 !important;}
 
 /**
  * 3.0 Basic Structure
