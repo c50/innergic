@@ -77,7 +77,7 @@ input[type="submit"] {background-color: #6FAEA5;}
 form.search-form {padding-bottom: 2em;}
 
 /* widget search box */
-input.search-field {color: #fff !important;}
+.primary-sidebar input.search-field {color: #fff !important;}
 
 /* media elements */
 
